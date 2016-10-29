@@ -1,5 +1,0 @@
-<?php
-
-echo 'settings file';
-
-?>
