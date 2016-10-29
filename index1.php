@@ -1,1 +1,5 @@
-<?php echo 'Привет'; ?>
+﻿<?php echo 'Привет';
+
+echo 'master'
+
+ ?>
