@@ -12,3 +12,36 @@
 .blue a:active {
     background-position: 0 -72px;
 }
+
+#main {
+    background-color: darkgray;
+    margin: 0 auto;
+    height: 600px;
+    overflow: hidden;
+}
+
+#header {
+    background-color: cadetblue;
+    height: 70px;
+}
+
+#content {
+    background-color: darkseagreen;
+    width: 400px;
+    float: left;
+
+}
+
+#sideRightight {
+    background-color: aqua;
+    width: 200px;
+    float: right;
+}
+
+#footer {
+    background-color: black;
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
