@@ -1,10 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url("reset.css");
+
+body {
+    background-image: url("../img/small/backgrounds/body.png");
+    color: #000000;
+    font-family: Arial, "Times New Roman", "Trebuchet MS";
+    font-size: 12px;
 }
 
-table {
-    border-collapse: collapse;
+#container {
+    background: #000000;
+    margin: 30px auto;
+    width: 900px;
+    height: 1000px;
+}
+
+#header {
+    background: #838283;
+    height: 200px;
+    width: 900px;
+}
+
+#navigation {
+    background: #a2a2a2;
+    width: 900px;
+    height: 20px;
+}
+
+#menu {
+    background: #333333;
+    width: 200px;
+    height: 600px;
+    float: left;
+}
+
+#content {
+    background: #d2d0d2;
+    width: 700px;
+    height: 600px;
+    float: right;
+}
+
+#footer {
+    background: #838283;
+    width: 900px;
+    height: 120px;
 }
 
 .buttons a {
@@ -20,49 +59,3 @@ table {
 .blue a:active {
     background-position: 0 -72px;
 }
-
-body {
-    height: 100%;
-    min-width: 100%;
-}
-
-html {
-    position:relative;
-    min-height:100%;
-}
-
-#main {
-    background-color: darkgray;
-    margin: 0 auto;
-    height: 100%;
-    overflow: hidden;
-}
-
-#header {
-    background-color: cadetblue;
-    height: 70px;
-    text-align: center;
-}
-
-#sideLef {
-    background-color: darkseagreen;
-    width: 200px;
-    height: 500px;
-    float: left;
-   }
-
-#content {
-    background-color: aqua;
-    width: 100%;
-    height: 500px;
-}
-
-#footer {
-    background-color: black;
-    height: 100px;
-    clear: both;
-    float: left;
-    width: 100%;
-    text-align: center;
-}
-
