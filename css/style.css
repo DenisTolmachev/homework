@@ -23,7 +23,7 @@ body {
 #navigation {
     background: #a2a2a2;
     width: 900px;
-    height: 20px;
+    height: 30px;
 }
 
 #menu {
@@ -41,7 +41,7 @@ body {
 }
 
 #footer {
-    background: #838283;
+    background-image: url("../img/small/backgrounds/footer.png");
     width: 900px;
     height: 120px;
 }
@@ -49,13 +49,48 @@ body {
 .buttons a {
     display: block;
     width: 150px;
-    height: 36px;
+    height: 37px;
     background: url("../img/small/sprite/sprite.png");
-    margin: 20px;
+    margin: 20px auto;
 }
-.blue a:hover {
-    background-position: 0 -36px;
+
+.lab31 a:hover {
+    background-position: 0 -37px;
 }
-.blue a:active {
-    background-position: 0 -72px;
+.lab31 a:active {
+    background-position: 0 -74px;
+}
+
+.lab32 a {
+    background-position: -150px 37px;
+}
+
+.lab32 a:hover {
+    background-position: -150px -37px;
+}
+
+.lab32 a:active {
+    background-position: -150px -74px;
+}
+
+.lab41 a {
+    background-position: -300px 37px;
+}
+
+.lab41 a:hover {
+    background-position: -300px -37px;
+}
+.lab41 a:active {
+    background-position: -300px -74px;
+}
+
+.lab42 a {
+    background-position: -450px 37px;
+}
+
+.lab42 a:hover {
+    background-position: -450px -37px;
+}
+.lab42 a:active {
+    background-position: -450px -74px;
 }
