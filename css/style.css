@@ -1,53 +1,59 @@
 @import url("reset.css");
 
 body {
+    font-family: Arial, Serif;
     background-image: url("../img/small/backgrounds/body.png");
     color: #000000;
-    font-family: Arial, "Times New Roman", "Trebuchet MS";
     font-size: 12px;
     height: 100%;
 }
 
-#container {
+.container {
     background: #000000;
     margin: 30px auto;
     width: 900px;
     min-height: 100%;
 }
 
-#header {
+.header {
     background: #838283;
     height: 200px;
     width: 900px;
+    color: white;
+    font-size: 40px;
+    text-align: center;
 }
 
-#navigation {
+.navigation {
     background: #a2a2a2;
     width: 900px;
     height: 30px;
 }
 
-#menu {
+.menu {
     background: #333333;
     width: 200px;
     height: 600px;
     float: left;
 }
 
-#content {
+.content {
     background: #d2d0d2;
     width: 700px;
     height: 600px;
     float: right;
 }
 
-#footer {
+.footer {
     /*position: absolute;
     bottom: 0px;*/
     background-image: url("../img/small/backgrounds/footer.png");
     width: 900px;
     height: 170px;
     clear: both;
+    color: white;
+    font-size: 20px;
+    text-align: center;
 }
 
 .buttons a {
@@ -61,6 +67,7 @@ body {
 .lab31 a:hover {
     background-position: 0 -37px;
 }
+
 .lab31 a:active {
     background-position: 0 -74px;
 }
@@ -84,6 +91,7 @@ body {
 .lab41 a:hover {
     background-position: -300px -37px;
 }
+
 .lab41 a:active {
     background-position: -300px -74px;
 }
@@ -95,6 +103,7 @@ body {
 .lab42 a:hover {
     background-position: -450px -37px;
 }
+
 .lab42 a:active {
     background-position: -450px -74px;
 }
@@ -110,4 +119,12 @@ body {
     margin-left: 66px;
     text-align: center;
     cursor: pointer;
+}
+
+.footercontent {
+    float: left;
+    height: 150px;
+    width: 280px;
+    background-color: #a2a2a2;
+    margin:10px 10px 10px 10px;
 }
